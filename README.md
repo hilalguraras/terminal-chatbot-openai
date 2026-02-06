@@ -31,7 +31,7 @@ uv venv
 .venv\Scripts\activate
 uv add openai python-dotenv
 
-### 2. API Key Tanımlama
+## # 2. API Key Tanımlama
 
 Proje dizininde .env dosyası oluşturun ve aşağıdaki gibi API anahtarınızı ekleyin:
 OPENAI_API_KEY=YOUR_API_KEY
