@@ -24,7 +24,7 @@ terminal-chatbot-openai/
 
 ## Kurulum
 
-### 1. Gerekli paketler
+ 1. Gerekli paketler
 ```bash
 pip install uv
 uv venv
