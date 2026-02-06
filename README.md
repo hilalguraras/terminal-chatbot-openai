@@ -64,20 +64,6 @@ Modelden alınan cevap terminalde gösterilir ve geçmişe eklenir
 
 Bu sayede sohbet bağlamı korunur
 ```
-### Geliştirme Fikirleri
-```
-Streaming (parça parça) cevap alma
-
-Konuşma geçmişini sıfırlama komutu
-
-Token ve mesaj uzunluğu kontrolü
-
-Sohbet kayıtlarını dosyaya yazma
-```
-
-
-
-
 
 
 
