@@ -15,40 +15,45 @@ Bu proje, terminal (konsol) üzerinden kullanıcıdan girdi alarak OpenAI'nin **
 - uv (virtual environment & dependency management)
 
 ## Proje Yapısı
+```text
 terminal-chatbot-openai/
 │── main.py
 │── .gitignore
 │── .env.example
 │── README.md
+```
 
 
 ## Kurulum
 
-### 1. Gerekli paketler
+### 1. Gerekli Paketler
 ```bash
 pip install uv
 uv venv
 .venv\Scripts\activate
 uv add openai python-dotenv
+```
 
-#### 2. API Key Tanımlama
-
+### 2. API Key Tanımlama
+```
 Proje dizininde .env dosyası oluşturun ve aşağıdaki gibi API anahtarınızı ekleyin:
 OPENAI_API_KEY=YOUR_API_KEY
 Not: Güvenlik sebebiyle .env dosyası GitHub reposuna eklenmemektedir.
-
+```
 ### Çalıştırma
+```
 Uygulamayı başlatmak için:
 python main.py
-
+```
 ### Uygulamadan çıkmak için terminale:
+```
 exit
 veya
 quit
+```
 
- 
 ### Nasıl Çalışır?
-
+```
 Uygulama terminalden kullanıcı girdisi alır
 
 Kullanıcı ve asistan mesajları bir liste içinde saklanır
@@ -58,9 +63,9 @@ Her yeni mesaj, önceki konuşma geçmişiyle birlikte modele gönderilir
 Modelden alınan cevap terminalde gösterilir ve geçmişe eklenir
 
 Bu sayede sohbet bağlamı korunur
-
+```
 ### Geliştirme Fikirleri
-
+```
 Streaming (parça parça) cevap alma
 
 Konuşma geçmişini sıfırlama komutu
@@ -68,14 +73,7 @@ Konuşma geçmişini sıfırlama komutu
 Token ve mesaj uzunluğu kontrolü
 
 Sohbet kayıtlarını dosyaya yazma
-
-
-
-
-
-
-
-
+```
 
 
 
