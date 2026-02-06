@@ -31,24 +31,23 @@ uv venv
 .venv\Scripts\activate
 uv add openai python-dotenv
 
-2. API Key Tanımlama
+### 2. API Key Tanımlama
 
 Proje dizininde .env dosyası oluşturun ve aşağıdaki gibi API anahtarınızı ekleyin:
 OPENAI_API_KEY=YOUR_API_KEY
 Not: Güvenlik sebebiyle .env dosyası GitHub reposuna eklenmemektedir.
 
-Çalıştırma
+### Çalıştırma
 Uygulamayı başlatmak için:
 python main.py
 
-Uygulamadan çıkmak için terminale:
+### Uygulamadan çıkmak için terminale:
 exit
 veya
 quit
 
-=================================================================================
-
-Nasıl Çalışır?
+ 
+### Nasıl Çalışır?
 
 Uygulama terminalden kullanıcı girdisi alır
 
@@ -60,7 +59,7 @@ Modelden alınan cevap terminalde gösterilir ve geçmişe eklenir
 
 Bu sayede sohbet bağlamı korunur
 
-Geliştirme Fikirleri
+### Geliştirme Fikirleri
 
 Streaming (parça parça) cevap alma
 
